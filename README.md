@@ -19,6 +19,16 @@ Computer Science & Engineering student building at the intersection of software,
 
 ## Arcade
 
+<div align="center">
+
+<img src="assets/arcade-cabinet.jpg" width="260" alt="Neon arcade cabinet" />
+
+<a href="https://hotwings06.github.io/neon-arcade/">
+  <img src="assets/play-now.svg" width="260" alt="▶ PLAY NOW — Neon Arcade">
+</a>
+
+</div>
+
 Pac-Man playing on my contribution graph — regenerated daily by a GitHub Action:
 
 <picture>
