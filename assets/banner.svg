@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Joel Dsouza - Software, AI, Embedded">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05010f"/>
+      <stop offset="0.65" stop-color="#0d0025"/>
+      <stop offset="1" stop-color="#1a0033"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f0ff"/>
+      <stop offset="0.5" stop-color="#ff00e5"/>
+      <stop offset="1" stop-color="#00f0ff"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd319"/>
+      <stop offset="1" stop-color="#ff2975"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="sunclip">
+      <circle cx="600" cy="212" r="72"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+
+  <!-- stars -->
+  <g fill="#ffffff" opacity="0.7">
+    <circle cx="120" cy="40" r="1.5"/>
+    <circle cx="260" cy="80" r="1"/>
+    <circle cx="420" cy="30" r="1.2"/>
+    <circle cx="780" cy="50" r="1.4"/>
+    <circle cx="950" cy="90" r="1"/>
+    <circle cx="1080" cy="35" r="1.6"/>
+    <circle cx="1140" cy="120" r="1"/>
+    <circle cx="60" cy="120" r="1.2"/>
+    <circle cx="680" cy="25" r="1"/>
+    <circle cx="880" cy="130" r="1.2"/>
+  </g>
+
+  <!-- retro sun -->
+  <circle cx="600" cy="212" r="72" fill="url(#sun)" opacity="0.9"/>
+  <g clip-path="url(#sunclip)">
+    <rect x="520" y="180" width="160" height="6" fill="#0d0025"/>
+    <rect x="520" y="196" width="160" height="8" fill="#0d0025"/>
+    <rect x="520" y="214" width="160" height="10" fill="#0d0025"/>
+    <rect x="520" y="234" width="160" height="12" fill="#0d0025"/>
+    <rect x="520" y="256" width="160" height="14" fill="#0d0025"/>
+  </g>
+
+  <!-- perspective grid -->
+  <g stroke="#ff00e5" stroke-width="1" opacity="0.45">
+    <line x1="0" y1="218" x2="1200" y2="218"/>
+    <line x1="0" y1="228" x2="1200" y2="228"/>
+    <line x1="0" y1="241" x2="1200" y2="241"/>
+    <line x1="0" y1="258" x2="1200" y2="258"/>
+    <line x1="0" y1="280" x2="1200" y2="280"/>
+    <line x1="0" y1="308" x2="1200" y2="308"/>
+  </g>
+  <g stroke="#00f0ff" stroke-width="1" opacity="0.35">
+    <line x1="600" y1="218" x2="-150" y2="320"/>
+    <line x1="600" y1="218" x2="75" y2="320"/>
+    <line x1="600" y1="218" x2="300" y2="320"/>
+    <line x1="600" y1="218" x2="450" y2="320"/>
+    <line x1="600" y1="218" x2="600" y2="320"/>
+    <line x1="600" y1="218" x2="750" y2="320"/>
+    <line x1="600" y1="218" x2="900" y2="320"/>
+    <line x1="600" y1="218" x2="1125" y2="320"/>
+    <line x1="600" y1="218" x2="1350" y2="320"/>
+  </g>
+
+  <!-- pacman + dots -->
+  <g transform="translate(455,88)" filter="url(#glow)">
+    <path d="M0,0 L26,-12 A28,28 0 1 0 26,12 Z" fill="#ffe600"/>
+  </g>
+  <g fill="#ffe600" filter="url(#glow)">
+    <circle cx="505" cy="88" r="4"/>
+    <circle cx="527" cy="88" r="4"/>
+    <circle cx="549" cy="88" r="4"/>
+  </g>
+
+  <!-- title -->
+  <text x="600" y="160" font-family="'Courier New', monospace" font-size="58" font-weight="bold" text-anchor="middle" fill="url(#title)" filter="url(#glow)" letter-spacing="6">JOEL D'SOUZA</text>
+  <text x="600" y="196" font-family="'Courier New', monospace" font-size="19" text-anchor="middle" fill="#00f0ff" letter-spacing="8" filter="url(#glow)">SOFTWARE • AI • EMBEDDED</text>
+</svg>
