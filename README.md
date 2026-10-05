@@ -82,13 +82,6 @@ Computer Science & Engineering student building at the intersection of **softwar
 
 ---
 
-## ▸ LEADERSHIP
-
-**Treasurer — IEEE Power & Energy Society (student chapter)**
-Organized and managed technical events: competitions, frontend development events, and energy & sustainability events. Budget planning, participant coordination, technical evaluation, and documentation.
-
----
-
 ## ▸ GITHUB STATS
 
 <div align="center">
